@@ -44,98 +44,98 @@
   * [versioning](db/)
 
 ##devops##
-  * [[devops:app-deploy|application deployment]]
-  * [[devops:continuous-delivery|continuous delivery]]
-  * [[devops:puppet-alternatives|puppet alternatives]]
+  * [application deployment](devops/application-deployment.md)
+  * [continuous delivery](devops/continuous-delivery.md)
+  * [puppet alternatives](devops/puppet-alternatives.md)
 
 ##Howto##
-  * [[howto:eeepc-bios-upgrade|BIOS Update EEE PC 1001HA using EZ Flash with usb pen drive]]
-  * [[howto:eeepc-change-harddisk|eeepc-hard-disk]]
+  * [BIOS Update EEE PC 1001HA using EZ Flash with usb pen drive](howto/bios-update-eeepc-1001HA.md)
+  * [eeepc-hard-disk](howto/eeepc-hard-disk.md)
 
 ##Java##
-  * [[java:containers|containers]]
-  * [[java:dto|DTO]]
-  * [[java:hibernate|hibernate]]
-  * [[java:http-proxy|http-proxy]]
-  * [[java:jmx|jmx]]
-  * [[java:maven|maven]]
-  * [[java:notes|notes]]
-  * [[java:regex|regex]]
-  * [[java:troubleshooting-tools|troubleshooting-tools]]
-  * [[java:web-services|web services]]
+  * [containers](java/containers.md)
+  * [DTO](java/dto.md)
+  * [hibernate](java/hibernate.md)
+  * [http-proxy](java/http-proxy.md)
+  * [jmx](java/jmx.md)
+  * [maven](java/maven.md)
+  * [notes](java/notes.md)
+  * [regex](java/regex.md)
+  * [troubleshooting-tools](java/toubleshooting-tools.md)
+  * [web services](java/web-services.md)
 
 ##linux##
-  * [[linux:gtkfont|gtkfont]]
-  * [[linux:init|init]]
-  * [[linux:iptables|iptables]]
-  * [[linux:network|network]]
-  * [[linux:swap|swap]]
-  * [[linux:upstart|upstart]]
-  * [[linux:xmonad|xmonad]]
-  * [[linux:system-info]]
+  * [gtkfont](linux/gtkfont.md)
+  * [init](linux/init.md)
+  * [iptables](linux/iptables.md)
+  * [network](linux/network.md)
+  * [swap](linux/swap.md)
+  * [upstart](linux/upstart.md)
+  * [xmonad](linux/xmonad.md)
+  * [system-info](linux/system-info.md)
 
 ##Mac##
-  * [[mac:command-line|commandline]]
-  * [[mac:hostname|hostname]]
-  * [[mac:launchd|launchd]]
-  * [[mac:persist-unlimit-route|persist-ulimit-route]]
-  * [[mac:set-defaut-python-version|python2.5]]
-  * [[mac:zip|zip]]
-  * [[mac:jdk|jdk]]
+  * [commandline](mac/commandline.md)
+  * [hostname](mac/hostname.md)
+  * [launchd](mac/launchd.md)
+  * [persist-ulimit-route](mac/persist-ulimit-route.md)
+  * [python2.5](mac/python2.5.md)
+  * [zip](mac/zip.md)
+  * [jdk](mac/jdk.md)
 
 ##Methodology##
-  * [[methodology:agile|Agile]]
-  * [[methodology:ci|CI]]
-  * [[methodology:tdd|TDD]]
-  * [[methodology:uml]]
+  * [Agile](methodology/agile.md)
+  * [CI](methodology/ci.md)
+  * [TDD](methodology/tdd.md)
+  * [uml](methodology/uml.md)
 
 ##saved-links##
-  * [[saved-links:2013-02|2013-02]]
-  * [[saved-links:2013-03|2013-03]]
-  * [[saved-links:2013-04|2013-04]]
-  * [[saved-links:2013-05|2013-05]]
-  * [[saved-links:2013-12|2013-12]]
-  * [[saved-links:2014-01|2014-01]]
-  * [[saved-links:2014-02|2014-02]]
-  * [[saved-links:2014-05|2014-05]]
-  * [[saved-links:2014-07|2014-07]]
-  * [[saved-links:2016-08|2016-08]]
+  * [2013-02](saved-links/2013-02.md)
+  * [2013-03](saved-links/2013-03.md)
+  * [2013-04](saved-links/2013-04.md)
+  * [2013-05](saved-links/2013-05.md)
+  * [2013-12](saved-links/2013-12.md)
+  * [2014-01](saved-links/2014-01.md)
+  * [2014-02](saved-links/2014-02.md)
+  * [2014-05](saved-links/2014-05.md)
+  * [2014-07](saved-links/2014-07.md)
+  * [2016-08](saved-links/2016-08.md)
 
 ##SCM##
-  * [[scm:git|git]]
-  * [[scm:svn|svn]]
-  * [[scm:hg|Mercurial/hg]]
-  * [[scm:svn-web-ui|svnwebgui]]
-  * [[scm:perforce]]
+  * [git](scm/git.md)
+  * [svn](scm/svn.md)
+  * [Mercurial/hg](scm/mercurial.md)
+  * [svnwebgui](scm/svnwebgui.md)
+  * [perforce](scm/perforce.md)
 
 ##security##
-  * [[webserver:apache|webapp-security]]
+  * [webapp-security](security/webapp-security.md)
 
 ##SunOS##
-  * [[sunos:commands|usefullcommands]]
+  * [usefullcommands](sunos/usefull-commands.md)
 
 ##Tools##
-  * [[tools:curl|curl]]
-  * [[tools:emacs|emacs]]
-  * [[tools:find|find]]
-  * [[tools:man|man]]
-  * [[tools:rsync|rsync]]
-  * [[tools:sed|sed]]
-  * [[tools:ssh|ssh]]
-  * [[tools:tar|tar]]
-  * [[tools:vi|vi]]
-  * [[tools:sudo]]
-  * [[tools:tcpdump|tcpdump]]
-  * [[tools:top|TOP]]
+  * [curl](tools/curl.md)
+  * [emacs](tools/emacs.md)
+  * [find](tools/find.md)
+  * [man](tools/man.md)
+  * [rsync](tools/rsync.md)
+  * [sed](tools/sed.md)
+  * [ssh](tools/ssh.md)
+  * [tar](tools/tar.md)
+  * [vi](tools/vi.md)
+  * [sudo](tools/sudo.md)
+  * [tcpdump](tools/tcpdump.md)
+  * [TOP](tools/top.md)
 
 ##webserver##
-  * [[webserver:apache|apache]]
-  * [[webserver:nginx|Nginx]]
+  * [apache](webserver/apache.md)
+  * [Nginx](webserver/nginx.md)
 
 ##Win##
-  * [[win:cmd|cmd]]
-  * [[win:powershell]]
-  * [[win:kernel_trace|Xperf can trace nt kernel usage.]]
+  * [cmd](win/cmd.md)
+  * [powershell](win/powershell.md)
+  * [Xperf can trace nt kernel usage](win/xperf-trace-nt-kernel-usage.md)
 
 ##ios##
-  * [[ios:resigning|ios resigning]]
+  * [ios resigning](ios/ios-resigning.md)
