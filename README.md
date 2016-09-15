@@ -1,47 +1,47 @@
 # wiki
 
 ##VM##
-  * [[vm:wmware|VMWARE]]
-  * [[vm:parallels|parallels]]
+* [VMWARE](vm/VMWARE.md)
+* [parallels](vm/parallels.md)
 
 ##Android##
-  * [[android:use-sd-card|Use sd card]]
+* [Use sd card](android/use-sd-card.md)
 
 ##architecture##
-  * [[architecture:design-patterns|design patterns]]
+  * [design patterns](architecture/design-patterns.md)
 
 ##aws##
-  * [[aws:resolve-hostname|resolve hostname]]
+  * [resolve hostname](aws/resolve-hostname.md)
 
 ##Bash##
-  * [[bash:check-process-running-or-not|check one process is running or not]]
-  * [[bash:chmod|chmod]]
-  * [[bash:chmod|convensions]]
-  * [[bash:redirects|redirects]]
-  * [[bash:shortcuts|shortcuts]]
-  * [[bash:trap|trap]]
-  * [[bash:add-string-to-output-line]]
-  * [[bash:wait-background-process]]
+  * [check one process is running or not](bash/check-one-process-is-running-or-not.md)
+  * [chmod](bash/chmod.md)
+  * [convensions](bash/convensions.md)
+  * [redirects](bash/redirects.md)
+  * [shortcuts](bash/shortcuts.md)
+  * [trap](bash/trap.md)
+  * [add-string-to-output-line](bash/add-string-to-output-line.md)
+  * [wait-background-process](bash/wait-backgroud-process.md)
 
 ##bookmarks##
-  * [[bookmarks:webhosting|web hosting]]
+  * [web hosting](bookmarks/web-hosting.md)
 
 ##build##
-  * [[build:openjdk8|Build openjdk8 on Ubuntu]]
+  * [Build openjdk8 on Ubuntu](build/build-openjdk8-on-ubuntu.md)
 
 ##build tools##
-  * [[build-tools:ant|ant]]
-  * [[build-tools:gradle|gradle]]
-  * [[build-tools:cmake|cmake]]
+  * [ant](build-tools/ant.md)
+  * [gradle](build-tools/gradle.md)
+  * [cmake](build-tools/cmake.md)
 
 ##CI##
-  * [[ci:jenkins|Jenkins]]
+  * [Jenkins](ci/jenkins.md)
 
 ##DB##
-  * [[db:design|design]]
-  * [[db:mysql|MySQL]]
-  * [[db:postgresql|postgresql]]
-  * [[db:versioning|versioning]]
+  * [design](db/design.md)
+  * [MySQL](db/mysql.md)
+  * [postgresql](db/postgresql.md)
+  * [versioning](db/)
 
 ##devops##
   * [[devops:app-deploy|application deployment]]
