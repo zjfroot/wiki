@@ -100,6 +100,7 @@
   * [2014-05](saved-links/2014-05.md)
   * [2014-07](saved-links/2014-07.md)
   * [2016-08](saved-links/2016-08.md)
+  * [2016-10](saved-links/2016-10.md)
 
 ##SCM##
   * [git](scm/git.md)
