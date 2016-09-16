@@ -1,10 +1,29 @@
+https://cloud.google.com/docs/compare/aws/
+
+
+###Compare terms
+| |AWS  | GCE |
+| ----|------------- | ------------- |
+||||
+||||
+| Container | ECS | Google Container Engine  |
+| Serverless | Lambda  | Functions |
+| Virtual Machine|EC2|Compute engine|
+|PAAS|AWS Elastic Beanstalk| App Engine|
+
+
+###Numbers
+
+
+
 ###Compute
 
 | |AWS  | GCE |
 | ----|------------- | ------------- |
-| Container | ECS | Content Cell  |
-| Serverless | Lambda  | Content Cell  |
-| Virtual Machine|EC2|
+| Container | ECS | Google Container Engine  |
+| Serverless | Lambda  | Functions |
+| Virtual Machine|EC2|Compute engine|
+|PAAS|AWS Elastic Beanstalk| App Engine|
 
 ###Storage
 
