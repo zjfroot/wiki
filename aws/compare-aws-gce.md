@@ -91,3 +91,8 @@ https://cloud.google.com/docs/geography-and-regions
 | Security Management | Amazon Inspector  | ??? |
 | Web Application Firewall | AWS WAF  | ??? |
 
+###Billing
+| |AWS  | GCE |
+| ----|------------- | ------------- |
+| Grouped accounts | Consilidated Billing | ???  |
+| Interval of compute resource  | Per hour  | Per minute |
