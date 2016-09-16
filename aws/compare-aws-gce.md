@@ -1,16 +1,12 @@
 https://cloud.google.com/docs/compare/aws/
 
 
-###Compare terms
+###Compare basic terms
 | |AWS  | GCE |
-| ----|------------- | ------------- |
-||||
-||||
-| Container | ECS | Google Container Engine  |
-| Serverless | Lambda  | Functions |
-| Virtual Machine|EC2|Compute engine|
-|PAAS|AWS Elastic Beanstalk| App Engine|
-
+|-----|------------- | ------------- |
+|Data centers and resources in one geological location |Region|Region|
+|Independent data center in one geological location|Availability Zone	|Zone|
+|Edge Caching|Edge location|POP|
 
 ###Numbers
 
