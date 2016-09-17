@@ -1,7 +1,7 @@
 Task list:
 
-- [ ] new 15GB EBS gp2 vol
-- [ ] mount new volume, move docker folder to new volume
+- [x] new 15GB EBS gp2 vol
+- [x] mount new volume, move docker folder to new volume
 - [ ] create postgres in docker
 - [ ] open port to new postgres
 - [ ] make it possible to connect to new postgres from remote client
