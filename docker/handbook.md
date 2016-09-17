@@ -69,3 +69,6 @@ To add a manager to this swarm, run the following command:
     --token SWMTKN-1-37nic18z12cawso7z7t85hc28aip92hke5yqs187oruv9ml087-0aqtz30scl6aokk5mbjv8t6ok \
     192.168.99.100:2377
 ```
+
+###run container registry
+    docker run -d -p 5000:5000 --restart=always --name registry registry:2
