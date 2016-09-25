@@ -72,3 +72,7 @@ To add a manager to this swarm, run the following command:
 
 ###run container registry
     docker run -d -p 5000:5000 --restart=always --name registry registry:2
+
+###linux, run docker without sudo, run following and logout and login
+    sudo usermod -aG docker $USER
+    
