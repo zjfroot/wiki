@@ -76,3 +76,10 @@ To add a manager to this swarm, run the following command:
 ###linux, run docker without sudo, run following and logout and login
     sudo usermod -aG docker $USER
     
+###run a mirror proxy registry
+    https://blog.docker.com/2015/10/registry-proxy-cache-docker-open-source/
+
+###docker for mac, how to login to the vm/hyperkit:
+    https://forums.docker.com/t/can-not-use-registry-mirror/10380/5
+    screen ~/Library/Containers/com.docker.docker/Data/com.docker.driver.amd64-linux/tty
+    type root to login
