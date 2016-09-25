@@ -78,6 +78,8 @@ To add a manager to this swarm, run the following command:
     
 ###run a mirror proxy registry
     https://blog.docker.com/2015/10/registry-proxy-cache-docker-open-source/
+    https://docs.docker.com/registry/configuration/#proxy
+    https://docs.docker.com/registry/recipes/mirror/
 
 ###docker for mac, how to login to the vm/hyperkit:
     https://forums.docker.com/t/can-not-use-registry-mirror/10380/5
