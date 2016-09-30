@@ -195,6 +195,7 @@ git patch and apply:
     </code>
 
 My .gitconfig:
+
     <code>
     [core]
         editor = emacs
