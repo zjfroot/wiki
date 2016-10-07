@@ -12,7 +12,7 @@ then
 
     cd /tmp
     mkdir jenkins_home_init_1.618
-    docker run --rm -i -t -p 9001:8080 -v /tmp/jenkins_home_init_1.618:/var/jenkins_home jenkinsci/jenkins:1.618
+    docker run --rm -i -t -p 9002:8080 -v /tmp/jenkins_home_init_1.618:/var/jenkins_home jenkinsci/jenkins:1.618
 
 then
 
