@@ -1,3 +1,7 @@
+###ssh proxy, ssh over https
+https://daniel.haxx.se/docs/sshproxy.html
+
+
 **Generate public key from private key**
   ssh-keygen -f ~/.ssh/id_rsa -y > ~/.ssh/id_rsa.pub
 
