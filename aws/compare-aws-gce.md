@@ -1,3 +1,5 @@
+https://lugassy.net/why-we-moved-from-amazon-web-services-to-google-cloud-platform-726c412fd667#.jbfz7m4vf
+
 https://cloud.google.com/docs/compare/aws/
 
 
