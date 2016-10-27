@@ -17,3 +17,9 @@ then
 then
 
     tar cjvf jenkins_home_init_1.618.tar.bz2 jenkins_home_init_1.618
+
+###start jenkins
+    
+    tar jxf jenkins_home_init_1.618.tar.bz2
+    cp -r jenkins_home_init_1.618 jenkins-3
+    docker run --name "jenkins-3" -d -p 9003:8080 -v `pwd`/jenkins_home_3:/var/jenkins_home jenkins:1.651.3
