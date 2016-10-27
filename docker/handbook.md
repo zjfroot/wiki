@@ -87,3 +87,15 @@ To add a manager to this swarm, run the following command:
     https://forums.docker.com/t/can-not-use-registry-mirror/10380/5
     screen ~/Library/Containers/com.docker.docker/Data/com.docker.driver.amd64-linux/tty
     type root to login
+    
+###Ubuntu 16.04, how to change docker daemon options, parameters:
+
+- put DOCKER_OPTS in /etc/default/docker, for example, `DOCKER_OPTS="-H tcp://192.168.99.10:2376"` to expose docker api via tcp/http
+- edit `vi /lib/systemd/system/docker.service`
+```
+EnvironmentFile=-/etc/default/docker
+ExecStart=/usr/bin/dockerd $DOCKER_OPTS -H fd://
+```
+- `systemctl daemon-reload && systemctl restart docker`
+
+
