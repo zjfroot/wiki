@@ -58,3 +58,7 @@ Need to do like this:
 
 And And then pass it in command like
   mvn test -Dmaven.test.argline='-Xms512m-Xmx1024m-XX:MaxPermSize=512m'.
+
+overrride surefire report name:
+
+  maven -Dsurefire.reportNameSuffix=xxx
