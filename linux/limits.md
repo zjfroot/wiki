@@ -19,3 +19,8 @@ check limit: http://www.linuxintro.org/wiki/Is_my_ulimit_exceeded
 http://serverfault.com/questions/687026/su-bin-bash-resource-temporarily-unavailable
 
 to monitor current nproc number of a user: `while true;do ps -eLf |grep {user} |wc -l;sleep 3;done`
+
+### Docker and linux uproc limits:
+
+- If application in docker container runs as the same user as on the host, it will also ads up the number.
+- Even if uproc limit is lifted up on the host, double check the soft/hard limit in the docker image.
