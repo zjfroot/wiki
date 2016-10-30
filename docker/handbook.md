@@ -99,3 +99,8 @@ ExecStart=/usr/bin/dockerd $DOCKER_OPTS -H fd://
 - `systemctl daemon-reload && systemctl restart docker`
 
 
+### Use a different docker host from docker cli:
+
+export DOCKER_HOST="tcp://ip:port"
+
+How to bind to another tcp port: https://docs.docker.com/engine/reference/commandline/dockerd/#bind-docker-to-another-host-port-or-a-unix-socket
