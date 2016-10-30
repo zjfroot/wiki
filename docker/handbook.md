@@ -104,3 +104,12 @@ ExecStart=/usr/bin/dockerd $DOCKER_OPTS -H fd://
 export DOCKER_HOST="tcp://ip:port"
 
 How to bind to another tcp port: https://docs.docker.com/engine/reference/commandline/dockerd/#bind-docker-to-another-host-port-or-a-unix-socket
+
+
+### docker java client:
+
+https://github.com/spotify/docker-client
+
+### docker remote api:
+
+https://docs.docker.com/engine/reference/api/docker_remote_api_v1.24/#/create-a-container
