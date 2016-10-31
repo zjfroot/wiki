@@ -60,3 +60,9 @@ And And then pass it in command like
   mvn test -Dmaven.test.argline='-Xms512m-Xmx1024m-XX:MaxPermSize=512m'.
 
 overrride surefire report name: `maven -Dsurefire.reportNameSuffix=xxx`
+
+
+### use proxy/mirror repository from nexus or artifactory:
+
+Check especially "Advanced Mirror Specification" in
+http://maven.apache.org/guides/mini/guide-mirror-settings.html
