@@ -113,3 +113,13 @@ https://github.com/spotify/docker-client
 ### docker remote api:
 
 https://docs.docker.com/engine/reference/api/docker_remote_api_v1.24/#/create-a-container
+
+### docker for mac, cleanup
+
+#### check disk usage
+    docker run --rm --privileged alpine df -h
+
+#### cleanup old images, stopped container
+    docker ps -q -a -f status=exited | xargs -n 100 docker rm -v
+    docker images -q --filter "dangling=true" | xargs -n 100 docker rmi
+    
