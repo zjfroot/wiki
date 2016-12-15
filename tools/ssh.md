@@ -84,3 +84,14 @@ jifeng: xauth is installed on centos by "yum install xorg-x11-xauth"
 Note that you do not need to set any environment variables on the server. DISPLAY andXAUTHORITY will automatically be set to their proper values. If you run ssh and DISPLAY is not set, it means ssh is not forwarding the X11 connection.
 
 To confirm that ssh is forwarding X11, check for a line containing Requesting X11 forwarding in the ssh -v -X output. Note that the server won't reply either way.
+
+
+### SSHD on windows
+https://wiki.jenkins-ci.org/display/JENKINS/SSH+slaves+and+Cygwin
+http://www.noah.org/ssh/cygwin-sshd.html
+
+- install cygwin with cygrunsrv and openssh
+- run ssh-host-config -y as admin and it will ask you to create a user for sshd.
+- run cygrunsrv -S sshd or net start sshd
+- run cygrunsrv --query sshd to query status
+-
