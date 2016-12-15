@@ -86,12 +86,12 @@ Note that you do not need to set any environment variables on the server. DISPLA
 To confirm that ssh is forwarding X11, check for a line containing Requesting X11 forwarding in the ssh -v -X output. Note that the server won't reply either way.
 
 
-### SSHD on windows
+# SSHD on windows
+
 https://wiki.jenkins-ci.org/display/JENKINS/SSH+slaves+and+Cygwin
 http://www.noah.org/ssh/cygwin-sshd.html
 
 - install cygwin with cygrunsrv and openssh
-- run ssh-host-config -y as admin and it will ask you to create a user for sshd.
-- run cygrunsrv -S sshd or net start sshd
-- run cygrunsrv --query sshd to query status
--
+- run `ssh-host-config -y` as admin and it will ask you to create a user for sshd.
+- run `cygrunsrv -S sshd` or `net start sshd`
+- run `cygrunsrv --query sshd` to query status
