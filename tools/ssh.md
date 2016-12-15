@@ -93,5 +93,9 @@ http://www.noah.org/ssh/cygwin-sshd.html
 
 - install cygwin with cygrunsrv and openssh
 - run `ssh-host-config -y` as admin and it will ask you to create a user for sshd.
+- add `set CYGWIN=binmode ntsec` to c:/cygwin/cygwin.bat before bash login
+- create jenkins user
+- run `/bin/mkpasswd -l –u jenkins >> /etc/passwd`
 - run `cygrunsrv -S sshd` or `net start sshd`
 - run `cygrunsrv --query sshd` to query status
+- allow port 22 in windows firewall
