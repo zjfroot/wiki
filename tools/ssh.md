@@ -96,6 +96,10 @@ http://www.noah.org/ssh/cygwin-sshd.html
 - add `set CYGWIN=binmode ntsec` to c:/cygwin/cygwin.bat before bash login
 - create jenkins user
 - run `/bin/mkpasswd -l –u jenkins >> /etc/passwd`
+- edit `/etc/sshd_config` to change ssh port, and disable password login
+  - add `Port 22`
+  - add `Port 443`
+  - add `PasswordAuthentication no`
 - run `cygrunsrv -S sshd` or `net start sshd`
 - run `cygrunsrv --query sshd` to query status
 - allow port 22 in windows firewall
