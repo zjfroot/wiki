@@ -91,7 +91,7 @@ To confirm that ssh is forwarding X11, check for a line containing Requesting X1
 https://wiki.jenkins-ci.org/display/JENKINS/SSH+slaves+and+Cygwin
 http://www.noah.org/ssh/cygwin-sshd.html
 
-- install cygwin with cygrunsrv and openssh
+- install cygwin with `cygrunsrv` and `openssh`
 - run `ssh-host-config -y` as admin and it will ask you to create a user for sshd.
 - add `set CYGWIN=binmode ntsec` to c:/cygwin/cygwin.bat before bash login
 - create jenkins user
