@@ -100,7 +100,7 @@ http://www.noah.org/ssh/cygwin-sshd.html
   - add `Port 22`
   - add `Port 443`
   - add `PasswordAuthentication no`
-  - run `cd;touch .ssh/authroized_keys; chmod 600 .ssh/authroized_keys`
+  - run `cd;touch .ssh/authorized_keys; chmod 600 .ssh/authorized_keys`
   - add public key to jenkins user dir `/home/jenkins/.ssh/authroized_keys`
 - run `cygrunsrv -S sshd` or `net start sshd`
 - run `cygrunsrv --query sshd` to query status
