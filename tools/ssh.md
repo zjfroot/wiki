@@ -108,4 +108,4 @@ http://www.noah.org/ssh/cygwin-sshd.html
 
 # mount remote ssh folder
 
-  sudo sshfs -o allow_other,defer_permissions,IdentityFile=~/.ssh/id_rsa jajp@perftest02.horisont.svenskaspel.se: ./remote
+  sudo sshfs -o allow_other,defer_permissions,IdentityFile=~/.ssh/id_rsa user@foo.com: ./remote
