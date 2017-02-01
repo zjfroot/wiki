@@ -105,3 +105,7 @@ http://www.noah.org/ssh/cygwin-sshd.html
 - run `cygrunsrv -S sshd` or `net start sshd`
 - run `cygrunsrv --query sshd` to query status
 - allow port 22, 443 in windows firewall
+
+# mount remote ssh folder
+
+  sudo sshfs -o allow_other,defer_permissions,IdentityFile=~/.ssh/id_rsa jajp@perftest02.horisont.svenskaspel.se: ./remote
