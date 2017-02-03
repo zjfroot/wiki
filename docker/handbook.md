@@ -94,7 +94,7 @@ To add a manager to this swarm, run the following command:
 - edit `vi /lib/systemd/system/docker.service`
 ```
 EnvironmentFile=-/etc/default/docker
-ExecStart=/usr/bin/dockerd $DOCKER_OPTS -H fd://
+ExecStart=/usr/bin/dockerd $DOCKER_OPTS -H fd:// -H tcp://192.168.99.13:2376
 ```
 - `systemctl daemon-reload && systemctl restart docker`
 
