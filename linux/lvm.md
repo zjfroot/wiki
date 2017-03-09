@@ -13,3 +13,7 @@ create logic volume (root or sudo)
     #add /dev/mapper/sysvg-lvjenkins /var/jenkins2_slave xfs    	defaults       	0 0 to /etc/fstab
     mount -a
   
+grow a logic volume
+
+    lvextend -L+50G /dev/sysvg/lvjenkins
+    xfs_growfs /home
