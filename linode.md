@@ -2,6 +2,8 @@
 
 Create user zjfroot
 
+Add zjfroot to sudoer `sudo adduser <username> sudo`
+
 Add pub key to user zjfroot
 
 disable ssh login for root
