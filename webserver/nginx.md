@@ -42,6 +42,7 @@ https://www.linode.com/docs/web-servers/nginx/configure-nginx-for-optimized-perf
 
 	vi /etc/security/limits.conf
 Add
+
 	www-data soft nofile 100000
 	www-data hard nofile 120000
 	www-data soft nproc 100000
