@@ -18,6 +18,9 @@ jstat:
 
 http://docs.oracle.com/javase/7/docs/technotes/tools/share/jstat.html
 
+Monitor GC every 2 sec:
+  jstat -gc <pid> 2000
+
 GC tuning guide:
 
 https://docs.oracle.com/javase/8/docs/technotes/guides/vm/gctuning/sizing.html
