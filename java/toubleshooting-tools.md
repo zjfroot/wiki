@@ -16,3 +16,7 @@ Memory dump:
 
 
 http://www.infoq.com/presentations/troubleshooting-java-web-apps
+
+Get heap information/usage:
+
+    jmap -heap <PID>
