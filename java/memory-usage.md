@@ -12,3 +12,6 @@ https://www.ibm.com/developerworks/community/blogs/kevgrig/entry/linux_glibc_2_1
 
 - Consider lowering MALLOC_ARENA_MAX to prevent native memory OOM
 https://github.com/prestodb/presto/issues/8993
+
+- Growing resident memory usage (RSS) of Java Process
+https://stackoverflow.com/questions/26041117/growing-resident-memory-usage-rss-of-java-process
