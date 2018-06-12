@@ -15,3 +15,6 @@ https://github.com/prestodb/presto/issues/8993
 
 - Growing resident memory usage (RSS) of Java Process
 https://stackoverflow.com/questions/26041117/growing-resident-memory-usage-rss-of-java-process
+
+- Java Native Memory leak, zip related
+http://www.evanjones.ca/java-native-leak-bug.html
